@@ -35,6 +35,12 @@ class ViewController1: UIViewController {
         print("VC1 viewDidDisappear Called")
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! ViewController2
+        nextVC.label?.text = "Sajjad"
+        print("prepare get Triggered")
+    }
+    
 
     
 

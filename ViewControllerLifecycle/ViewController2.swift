@@ -19,7 +19,7 @@ class ViewController2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label.text = "hello"
+        //label.text = "hello"
         
         print("VC2 viewDidLoad Called")
     }
